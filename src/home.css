@@ -1,0 +1,284 @@
+@media(max-width:500px){
+    .home{
+        background-color: black;
+        color:white;
+        width:100%;
+        .s1{
+            padding-top: 10vh;
+            gap:2%;
+            background-color: rgb(235, 235, 165);
+            color:black;
+            .leftside{
+                padding-left: 5%;
+                h1{
+                    font-size:30px;
+                    font-weight: 300;
+                }
+                .bt1{
+                    font-size:20px;
+                    height:35px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: black;
+                    color:white;
+                    font-size:15px;
+                }
+                .bt2{
+                    margin-left: 10px;
+                    font-size:15px;
+                    height:35px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    
+                }
+            }
+            .rightside{
+                width:90%;
+                margin-left: 5%;
+                .video1{
+                    margin-top: 10px;
+                    width:100%;
+                }
+            }
+        }
+    
+        .heading{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+            color:white;
+        }
+    
+        .s2{
+            width:95%;
+            margin-left: 2.5%;
+            gap:1%;
+            color:white;
+            .box{
+                margin-top: 30px;
+                width:95%;
+                margin-left: 2.5%;
+                border:1px solid white;
+                color:black;
+                background-color: rgb(235, 235, 165);
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgb(235, 235, 165); /* Simple shadow */
+                h1{
+                    font-weight: 400;
+                    text-align: center;
+                    font-size: 25px;
+                }
+                .bt2{
+                    height:40px;
+                    border-radius: 5px;
+                    margin-left: 15%;
+                    width:70%;
+                    font-size: 17px;
+                    background-color: white;
+                }
+            }
+        }
+        .h3{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 400;
+        }      
+    }
+}
+
+@media(min-width:500px) and (max-width:1200px){
+    .home{
+        background-color: black;
+        color:white;
+        width:100%;
+        .s1{
+            padding-top: 10vh;
+            gap:2%;
+            background-color: rgb(235, 235, 165);
+            color:black;
+            .leftside{
+                padding-left: 5%;
+                h1{
+                    font-size:40px;
+                    font-weight:300;
+                }
+                .bt1{
+                    font-size:25px;
+                    height:35px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: black;
+                    color:white;
+                    font-size:15px;
+                }
+                .bt2{
+                    margin-left: 10px;
+                    font-size:15px;
+                    height:35px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    
+                }
+            }
+            .rightside{
+                width:90%;
+                margin-left: 5%;
+                .video1{
+                    margin-top: 10px;
+                    width:100%;
+                }
+            }
+        }
+    
+        .heading{
+            font-size: 35px;
+            font-weight: 400;
+            color:white;
+            text-align: center;
+        }
+    
+        .s2{
+            width:95%;
+            margin-left: 2.5%;
+            gap:1%;
+            color:white;
+            .box{
+                margin-top: 30px;
+                width:95%;
+                margin-left: 2.5%;
+                border:1px solid white;
+                color:black;
+                background-color: rgb(235, 235, 165);
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgb(235, 235, 165); /* Simple shadow */
+                h1{
+                    font-weight: 400;
+                    text-align: center;
+                    font-size: 35px;
+                }
+                .bt2{
+                    height:40px;
+                    border-radius: 5px;
+                    margin-left: 15%;
+                    width:70%;
+                    font-size: 20px;
+                    background-color: white;
+                }
+            }
+        }
+        .h3{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+        }      
+    }
+}
+
+
+@media(min-width:1200px){
+    .home{
+        background-color: black;
+        color:white;
+        width:100%;
+        .s1{
+            display:flex;
+            padding-top: 10vh;
+            gap:2%;
+            background-color: rgb(235, 235, 165);
+            color:black;
+            .leftside{
+                width:45%;
+                padding-left: 5%;
+                h1{
+                    font-size:50px;
+                    font-weight: 300;
+                }
+                .bt1{
+                    font-size:20px;
+                    height:45px;
+                    width:30%;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    background-color: black;
+                    color:white;
+                }
+                .bt2{
+                    margin-left: 10px;
+                    font-size:20px;
+                    height:45px;
+                    width:30%;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    
+                }
+            }
+            .rightside{
+                width:45%;
+                .video1{
+                    margin-top: 10px;
+                    width:100%;
+                }
+            }
+        }
+    
+        .heading{
+            padding-left: 40%;
+            font-size: 45px;
+            font-weight: 400;
+            color:white;
+        }
+    
+        .s2{
+            display:flex;
+            width:95%;
+            margin-left: 2.5%;
+            gap:1%;
+            color:white;
+            .box{
+                width:50%;
+                border:1px solid white;
+                background-color: black;
+                border-radius: 10px;
+                padding-left: 10px;
+                box-shadow: 0 4px 6px white; /* Simple shadow */
+                h1{
+                    font-weight: 400;
+                    text-align: center;
+                    font-size: 35px;
+                }
+                .bt2{
+                    height:40px;
+                    border-radius: 5px;
+                    border:none;
+                    margin-left: 15%;
+                    width:70%;
+                    font-size: 17px;
+                    background-color: white;
+                }
+            }
+            .box:hover{
+                width:55%;
+                font-size:18px;
+                background-color: rgb(235, 235, 165);
+                box-shadow: 0 4px 6px rgb(235, 235, 165);
+                color:black;
+                cursor: pointer;
+                .bt2{
+                    height:40px;
+                    border-radius: 5px;
+                    background-color: black;
+                    color:white;
+                    border:none;
+                    margin-left: 15%;
+                    width:70%;
+                    font-size: 17px;
+                }
+            }
+        }
+        .h3{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+        }      
+    }
+}
